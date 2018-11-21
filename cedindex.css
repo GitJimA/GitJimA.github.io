@@ -1,0 +1,163 @@
+body { 
+  background-color: CornFlowerBlue;
+  font-family:      Sans-Serif;
+  font-size:        small;
+  margin:           0px;
+}					
+
+header.top {
+  background-color: #a58ef5;
+  margin: 10px 10px 0px 10px;
+  height:           109px;
+  padding-bottom: 15px;
+}
+
+.left {
+    float: left;
+}
+       	      
+#allbodycontent {
+	width:820px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+div#tableRow {
+	display: table-row;
+}
+
+aside {
+    display: table-cell;
+    background-color: #6699ff;
+    width: 30%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+section#features {
+  display: table-cell;
+  background:       #99b9ff;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
+
+footer {
+  background-color: #a58ef5;
+  color:            #d9ccff;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        90%;
+}
+
+.column2 {
+  float: left;
+  width: 32%;
+  padding: 46px;
+}
+
+.column4 {
+  float: left;
+  width: 14%;
+  padding: 25px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+h1 {
+  font-size:        120%;
+}
+
+h12 { 
+  font-size:        130%;
+  text-align: 	    center;
+  color:	    #DC143C;
+}
+
+h2 { font-size: 120%; 
+}
+
+h3 { 
+  text-align: center 
+}
+
+h4 { 
+  font-size:        130%;
+  text-align: 	    center;
+  color:	    #DC143C;
+}
+
+.cedheading {
+  text-align:       center;
+  line-height:      1.8em;
+  font-weight:      bold;
+}
+
+.cedsubheading {
+  text-align:       center;
+  line-height:      1.8em;
+}
+
+.cedimgheading {
+  text-align:	    right;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+a:link {
+  color:            blue;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+
+nav {
+    background-color: #a58ef5;
+	margin: 10px 10px 0px 10px;
+}
+
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+} 
+
+nav ul li {
+	display: inline;
+	padding:  5px 10px 5px 10px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+	color: #d9ccff;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+nav ul .active {
+	background-color: DarkBlue;
+	color: #a58ef5;
+}
+
+nav ul .hover {
+	background-color: Blue;
+	color: #a58ef5;
+}
